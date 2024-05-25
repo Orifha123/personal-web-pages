@@ -1,19 +1,98 @@
 body {
-    img src
-    background-color: #F7B32B;
-    font-family: arial;
+/*background-image: ;*/
+    background-color:palegreen;
+    font-family: 'Times New Roman', Times,;
+    /*background-image: url(images/background.webp);*/
 }
+.header {
+    background-image: url(images/background.webp);
+    /*background-color: khaki;*/
+    padding: 1em;
+    border-radius: 2%;
+}
+
+
+.box {
+    width: 100%;
+    display: flex ;
+} 
+.history {
+    /* width: 100%; */
+    display: flex; 
+    border-radius: 1em;
+    background-color: grey;
+
+} 
+
+
+
+.table,tr,td {
+    width: 80%;
+    text-align: left ;
+    background-color: rosybrown;
+    
+
+}
+
+
+
+
+@media (max-width:960px) {
+  .body{
+    width: 90%; 
+  }
+  /* History class */
+.history {
+  display: block;
+  width: 90%;
+}
+
+.column {
+  display: flex;
+  gap: 20px;
+}
+
+.historyig{
+  width: 200px;
+  align-self: self-start;
+  padding-top:  2em;
+}
+.mid{
+  order: 1;
+}
+ 
+ }
+
+ .Qualification {
+    background-color: lightgreen;
+}
+
+.contact {
+    display: flex;
+    background-color: darkslategray;
+}
+/* body { 
+   background-image: url(C:\Users\orifha\Desktop\documents\projects\personal-web-pages\images\cape town.avif);
+    background-size: 200%;
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 .header {
-    background-color: #166088;
-    padding: ;
+    background-color:blueviolet ;
+    padding: 2em;
+    border-radius: 1em ;
 }
 
-.main {
-    background-color : ;
-}
+.container{
+    /*width: 100%;
+    display: flex;
 
-.footer {
-    background-color: ;
-    padding: ;
-}
+
+.section {
+    width: calc(50% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+} */
